@@ -1,1 +1,11 @@
-[Javascript异步编程的4种方式](http://www.ruanyifeng.com/blog/2012/12/asynchronous%EF%BC%BFjavascript.html)
+## 记录学习 JavaScript 的一些要点
+
+### 字符串
+
+字符串的输出最好使用这样的格式(模板字面量格式):
+```
+`${a}bbb${c}`
+```
+
+
+
