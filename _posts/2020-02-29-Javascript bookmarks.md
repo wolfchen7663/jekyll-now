@@ -47,6 +47,10 @@ Boolean
 用`splice`进行数组元素的增加
 `array.splice(1, 0, "add")`，在第二个位置添加"add"
 
+![数组元素换位置](https://raw.githubusercontent.com/wolfchen7663/wolfchen7663.github.io/master/_posts/%E6%95%B8%E7%B5%84%E5%85%83%E7%B4%A0%E6%8F%9B%E4%BD%8D%E7%BD%AE.png)
+
+彻底清空数组可以使用`arr.length = 0`
+
 
 
 
