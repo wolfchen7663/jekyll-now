@@ -28,6 +28,25 @@ str.substr(-3, 2) 2 表示截取俩个
 `str.replace(“被替换的","新的")`
 
 
+Boolean
+数值类型和字符串类型`0 和 "" 是 false`
+引用类型`[] 和 {} 是 true`
+
+
+数组的填充
+`array.fill("something", 1, 4)`
+左闭右开
+
+数组的截取
+`array.slice(1, 4)` 左闭右开进行截取，注意不改变原数组
+`array.splice(1, 4)` 左闭，**右边是截取几个，注意这个时候会改变原数组。相当于删除数组里面的元素**
+
+用`splice`进行数组元素的替换
+`array.splice(1, 1, "add")`将第二个元素替换为"add"
+
+用`splice`进行数组元素的增加
+`array.splice(1, 0, "add")`，在第二个位置添加"add"
+
 
 
 
